@@ -114,8 +114,8 @@ ul, li {
 }
 .mainBtnRed{
     display: flex;
-    top: 530px;
-    position: absolute;
+    top: 129px;
+    position: relative;
     background: red;
     padding: 60px 70px;
     border-radius: 50px;
@@ -127,13 +127,13 @@ ul, li {
 }
 .mainBtnBlue{
 
-    top: 130px;
+    top: -27px;
     position: relative;
     background: blue;
     padding: 60px 70px;
     border-radius: 50px;
     color: white;
-    left: 770px;
+    left: 850px;
     font-size: 30px;
 }
 .text-center h1{
