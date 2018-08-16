@@ -1,0 +1,747 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+body {
+    width: 100%;
+}
+img {
+    width: 100%;
+    height: auto;
+}
+ul, li {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+.wrapper-logo {
+    position: relative;
+}
+.socialIconBlock {
+    background: blue;
+}
+.sectionMenuButton{
+    position: relative;
+}
+.iconItems {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    color: white;
+    font-size: 20px;
+    padding: 10px 0;
+}
+.iconItem {
+    margin-left: 15px;
+}
+
+.logoImg {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.menuBtnBlock {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 20px;
+}
+.menu li {
+    display: inline-block;
+    padding: 10px 15px;
+    color: grey;
+    font-family: "Century Gothic";
+ }
+.toggleMenu {
+    display: none;
+    margin-right: 20px;
+}
+.toggleMenu span{
+    display: block;
+    width: 20px;
+    margin: 5px 0;
+    height: 3px;
+    background: black;
+}
+.mainBtn1{
+    background: red;
+    color: white;
+    border-radius: 50px;
+    padding: 10px 1em;
+    font-family: "GalanoGrotesque";
+
+}
+.mainButton{
+    display: flex;
+    justify-content: flex-start;
+}
+.mainButton.Button{
+    margin-right: 15px;
+}
+.Button{
+    font-family: Arial,sans-serif ;
+    font-weight: bold;
+    width: 162px;
+    height: 46px;
+    border-radius: 23px;
+    text-align: center;
+    line-height: 50px;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: white;
+}
+.mainBtn {
+    display: inline-block;
+    top: 90px;
+    position: relative;
+    background: red;
+    padding: 10px 2em;
+    border-radius: 50px;
+    color: white;
+ }
+.mainBtn2{
+    display: inline-block;
+    top: 90px;
+    position: relative;
+    background: blue;
+    padding: 10px 2em;
+    border-radius: 50px;
+    color: white;
+}
+.buttonLine {
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    margin-top: -75px;
+    color: white;
+}
+.buttonLine .btnLineItem {
+    padding: 20px;
+    border-radius: 20px;
+    width: 300px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+}
+.buttonLine .btnLineItem:last-child{
+    margin-right: 0;
+}
+.btnLineItem-green {
+    background: green;
+}
+.btnLineItem-red {
+    background: red;
+}
+.btnLineItem-blue {
+    background: blue;
+}
+
+.buttonLine p {
+    margin: 0 15px;
+}
+
+.text-center h1{
+    margin: 50px 0;
+    position: relative;
+    font-family: "Monotype Corsiva";
+    font-size: 40px;
+    text-align: center;
+}
+.text-center p{
+    text-align: center;
+    color: grey;
+    font-size: 25px;
+}
+.iconCancer {
+    margin: 50px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.cancerImg{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cancerImgWrap img {
+    height: 100%;
+    width: auto;
+}
+.cancerImgWrap {
+    height: 220px;
+    margin-bottom: 15px;
+}
+.cancer h1{
+    font-size: 20px;
+    font-family: "Monotype Corsiva";
+    color: grey;
+    margin-bottom: 10px;
+
+}
+.cancerImg p {
+    font-family: "Monotype Corsiva";
+    font-size: 18px;
+    color: blue;
+}
+.borderBlok{
+    padding: 15px 0;
+    text-align: center;
+    background:  #f1f1f1;
+}
+.borderBlok h2{
+    margin: 10px;
+    font-size: 40px;
+    font-family: "Monotype Corsiva";
+ }
+.borderBlok p{
+    color: #a8a8a8;
+    font-size: 20px;
+ }
+.Section_content{
+    margin: 40px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+.infoBlock{
+    margin: 40px;
+    display: flex;
+    flex-direction: column;
+    background: white;
+    width: 360px;
+    border: 1px solid gainsboro;
+    margin-right: 30px;
+}
+.smallLogo{
+    width: 65px;
+    height: 65px;
+    background: darkblue;
+    border-radius: 50%;
+    margin: -30px auto 0 auto;
+}
+.infoBlock__text{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 0;
+    height: 200px;
+    text-align: center;
+    color: gray;
+    font-family: "Monotype Corsiva";
+}
+.infoBlock__text h2{
+    font-size: 24px;
+    margin: 10px 30px 20px 30px;
+}
+.infoBlock_text-news h2{
+    font-size: 24px;
+    margin: 10px 30px 20px 30px;
+}
+.infoBlock__text p{
+    font-size: 15px;
+    font-family: "Malgun Gothic";
+    color: gray;
+    margin: -22px 20px 30px;
+}
+.infoBlock__text{
+    text-align: center;
+}
+.infoBlock__date p{
+    font-family: "Malgun Gothic";
+    color: gray;
+    text-align: center;
+    font-size: 15px;
+ }
+.infoBlock__date span{
+    color: blue;
+}
+.cl-black p{
+    color: black;
+    text-align: right;
+    font-size: 18px;
+}
+.cl-black p {
+    position: absolute;
+    left: 980px;
+    border-bottom: 2px solid #0054a4;
+}
+.bunner {
+    background: url(../img/main-img.jpg) no-repeat center / cover;
+    width: 100%;
+    height: 40vw;
+}
+.mainTitleBlock {
+    max-width: 400px;
+}
+.mainTitle{
+    position: relative;
+    top: 60px;
+    font-family: "Monotype Corsiva";
+    color: blue;
+    font-size: 30px;
+}
+.mainTitle p{
+    color: black;
+    font-family: "Century Gothic";
+    font-size: 19px;
+}
+.Section  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.Section__intro{
+    color: black;
+    margin: 50px 300px;
+    text-align: center;
+}
+h2{
+    font-family: Monotype Corsiva;
+    font-size: 50px;
+}
+
+.Section__link{
+    display: flex;
+    justify-content: flex-end;
+    align-self:flex-end;
+    margin-top: -80px;
+}
+.Section__link a{
+    font-family: OpenSans;
+    font-size: 15px;
+    color: black;
+    border-bottom: 2px solid #0054a4;
+    display: inline-block;
+    text-align: right;
+}
+a {
+    text-decoration: none;
+}
+
+.Section__content{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    margin-top: 30px;
+}
+.videoBlock{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-right: 50px;
+}
+.videoBlock:last-child{
+    margin-right: 0;
+}
+.videoBlock iframe{
+    width: 550px;
+    height: 300px;
+}
+.videoBlock p{
+    color: black;
+    font-family: "Century Gothic";
+    margin-bottom: 50px;
+    text-align: center;
+}
+.Section video_section{
+    color: black;
+    margin: 50px 300px;
+    text-align: center;
+}
+h2 {
+    font: 40px "Century Gothic";
+    color: black;
+}
+.section-padding {
+    padding: 50px 0;
+}
+.section-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.header-section {
+    margin-bottom: 70px;
+}
+.header-section {
+    align-items: center;
+}
+.header-section {
+    text-align: center;
+    align-self: center;
+}
+.text-header {
+    margin-top: -1px;
+    margin-bottom: 0;
+    color: #0054a4;
+}
+h2 {
+    margin: 50px;
+    font: 50px "Monotype Corsiva";
+    color: black;
+    text-align: center;
+}
+.text-header h2{
+    margin:  10px 0;
+    font: 50px "Monotype Corsiva";
+    color: black;
+    text-align: center;
+}
+.news-items {
+    width: 300px;
+    display: inline-block;
+    border-radius: 5px;
+    overflow: hidden;
+    background-color: #fff;
+    border: 1px solid #dddddd;
+}
+.view-all{
+    position: absolute;
+    left: 990px;
+    margin: 150px 0;
+    color: black;
+    font-size: 20px;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #0054a4;
+}
+.news-button {
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    width: 116px;
+    height: 30px;
+    border-radius: 6px;
+    line-height: 26px;
+    text-align: center;
+    background: green;
+}
+.volunteer-section {
+    width: 100%;
+    height: 640px;
+    background: url(../img/volunteer.jpg) no-repeat center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+p.fn-lobster {
+    line-height: 1;
+}
+.volunteer-main-block {
+    box-sizing: border-box;
+    width: 421px;
+    height: 400px;
+    padding: 51px;
+    align-items: center;
+    text-align: center;
+}
+.volunteer-main-block {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 421px;
+    height: 400px;
+    padding: 51px;
+    align-items: center;
+    text-align: center;
+    background: white;
+}
+p. fn-lobster {
+    line-height: 1;
+}
+.fs32{
+    color: black;
+    font-size: 30px;
+    font-family: "Monotype Corsiva";
+}
+.fs60{
+    color: black;
+    font-size: 60px;
+    font-family: "Monotype Corsiva";
+}
+.cl-light-gray {
+    color: #a8a8a8;
+    font-size: 18px;
+    line-height: 1.5;
+    font-family: "Century Gothic";
+}
+.volunteer-button {
+    margin-top: 30px;
+    width: 195px;
+    height: 51px;
+    -webkit-border-radius: 26px;
+    -moz-border-radius: 26px;
+    border-radius: 26px;
+    border: 1px solid #0054a4;
+    text-transform: uppercase;
+    line-height: 45px;
+    font-weight: 500;
+    font-size: 18px;
+}
+.wrapper-slider{
+    position: relative;
+    display: none;
+}
+.Header-text{
+    font: 40px "Lobster";
+}
+.Section__content {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+.infoBlock {
+    display: flex;
+    flex-direction: column;
+    background: white;
+    width: 362px;
+    height: 450px;
+    margin-bottom: 50px;
+    border: 1px solid lightGray;
+    margin-right: 50px;
+    border-top: 2px solid lightGray;
+}
+.infoBlock img {
+    width: 100%;
+}
+.infoBlock__text-news {
+    margin: -20px 20px;
+    text-align: left;
+}
+
+.recentNews {
+    font-size: 13px;
+    font-family: "OpenSans";
+    font-weight: bold;
+    padding: 5px 25px;
+    margin: 20px 30px 0 30px;
+    align-self: flex-start;
+    border-radius: 5px;
+    color: white;
+}
+.green {
+    background: #6fbd2a;
+}
+.red{
+    background: red;
+}
+.blue{
+    background: blue;
+}
+.infoBlock__text-news h2 {
+    font-size: 24px;
+    margin: 10px 30px 20px 30px;
+}
+.article h2{
+    color: gray;
+    text-align: center;
+    font-family: "Monotype Corsiva";
+    font-size: 30px;
+}
+.volunteer-section {
+    margin-bottom: 100px;
+    width: 100%;
+    height: 40vm;
+    background: url(../img/volunteer.jpg) no-repeat center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    max-width: 1400px;
+}
+.volunteer-main-block {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 421px;
+    height: 400px;
+    padding: 51px;
+    align-items: center;
+    text-align: center;
+}
+.partners{
+    width: 100%;
+    padding: 70px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   }
+.scroll{
+    top: 45px;
+    left: -70px;
+}
+.scroll{
+    position: absolute;
+    z-index: 999;
+    width: 49px;
+    height: 49px;
+    color: #747474;
+    border: 1px solid grey;
+    border-radius: 50%;
+    line-height: 49px;
+    text-align: center;
+    font-size: 28px;
+}
+.Partners{
+    top: 350px;
+    padding: 400px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.Partners_leftArrow{
+    position: absolute;
+    left: 70px;
+    z-index: 10;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 28px;
+    color: #747474;
+    border: 1px solid darkgray;
+    border-radius: 50%;
+    text-align: center;
+}
+.Slider{
+    width: 775px;
+    position: relative;
+    display: flex;
+    justify-content:space-between ;
+    align-items: flex-end;
+    overflow: hidden;
+}
+.preFooter {
+    box-sizing: border-box;
+    background: white url("../img/footer-bg.jpg") no-repeat;
+    background-size: cover;
+    height: 420px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.preFooterLogo__social{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 30px;
+}
+.preFooterSection{
+    color: white;
+    font-family: "OpenSans";
+    font-size: 15px;
+}
+.preFooterSection__header{
+    font-family: Monotype Corsiva;
+    font-size: 30px;
+    text-align: center;
+}
+.preFooterSection__line{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+.preFooterSection__line-thick{
+    background-color: olivedrab;
+    width: 40%;
+    height: 5px;
+}
+.preFooterSection__line-thin{
+    background-color: white;
+    width: 60%;
+    height: 1px;
+}
+.footer{
+    width: 100%;
+    height: 45px;
+    line-height: 45px;
+    font-size: 14px;
+    font-family: "Century Gothic";
+    background: darkblue;
+    text-align: center;
+    color: grey;
+ }
+@media only screen and ( max-width:1185px ) {
+    .menu {
+        display: none;
+    }
+    .toggleMenu {
+        display: block;
+    }
+    .buttonLine {
+        margin-top: 50px;
+    }
+}
+@media only screen and ( max-width:1000px ) {
+    .bunner {
+        width: 100%;
+        height: 60vw;
+    }
+    .buttonLine {
+        justify-content: flex-start;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .buttonLine.btnLineItem {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+    .iconCancer {
+        margin: 50px 0;
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+    }
+    .cancerImg {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+    .Section__content {
+        justify-content: flex-start;
+        flex-direction: column;
+        align-items: center;
+    }
+    .Partners {
+        justify-content: flex-start;
+        flex-direction: column;
+        align-items: center;
+}
+    .Slider{
+        justify-content: flex-start;
+        flex-direction: column;
+        align-items: center;
+    }
+    .borderBlok {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .cl-black p{
+        text-align: center;
+        left: 400px;
+        margin: 5px;
+    }
+    .preFooter{
+        height: auto;
+        background-size: cover;
+    }
+}
